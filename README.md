@@ -1,2 +1,112 @@
 # FatimaVenagas
 Esta es la pagina de Fátima America Molina Vegas
+<!DOCTYPE html>
+<html lang='en'>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width-divace-width, initial-scale=1, shrink-to-fit=no'>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <title>N-CORTO - MAPAS</title>
+    <link rel="shortcut icon" href="Imagenes/Logo-Ame.png">
+    <link rel="stylesheet" href="CSS/Css-Galeria.css">
+    <link rel="stylesheet" href="Jscript/Java-Fati.js">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis&display=swap">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="Barr">
+            <a href="Proyecto Artesanos.html"><img src="Imagenes/Logo-Ame.png"></a>
+            <div class="letr">
+                <H1> UBICACION</H1>
+            </div>
+        </div>
+        <div class="banner">
+
+        </div>
+        <div class="fondo2">
+            <div class="titulo">
+                <br>
+                <h1>NOS PUEDES ENCONTRA AQUI¡¡¡</h1>
+            </div>
+        </div>
+        <div class="fondo"> <br>
+            <div class="INFOs">
+                <div id="map"></div>
+                <script src="Jscript/Java-Fati.js"></script>
+                <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgi1yRRIO4p9NF7sR5_EHURPgbewIy-V8&callback=iniciarMap"></script>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <div class="icon"> <i class='bx bxs-user-circle'></i></div>
+
+            <form action="">
+                <input type="text" placeholder="  Nombre">
+                <input type="text" placeholder="  E-Mail">
+                <br> <br>
+                <a href="" id="boton5">Acceder</a>
+            </form>
+        </div>
+    </div>
+    <div class="cuad1">
+        <div class="cont1-cuad">
+            <div class="serr">+</div>
+            <h1>NOTIFICACIONES</h1>
+
+
+            </form>
+        </div>
+    </div>
+    <script src="Jscript/Java-Fati.js"></script>
+</body>
+<footer>
+    <div id="siguenos">
+        <h3>
+          Siguenos
+        </h3>
+        <a href="https://www.facebook.com/"> <img src="Imagenes/Facebook.png" /></a>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox"> <img src="Imagenes/GooglePlus.png" /></a>
+        <a href="https://twitter.com/?lang=es"><img src="Imagenes/Twitter.png" /></a>
+          <a href="https://github.com/"> <img src="Imagenes/github.png" /></a>
+      </div>
+      <div id="suscribir">
+        <h3>
+          Suscribete
+        </h3>
+        <label>Email: </label>
+        <input type="text" />
+      </div>
+      <div id="powered">
+        <h3>Powered by: </h3>
+        <ul>
+          <li>
+            <a href="http://www.w3.org/html/wg/drafts/html/master/">HTML5</a>
+          </li>
+          <li>
+            <a href="http://nodejs.org/">Mode.js</a>
+          </li>
+          <li>
+            <a href="http://nozilla.github.io/nunjucks/">Nunjucks.js</a>
+          </li>
+          <li>
+            <a href="http://github.com/">GitHub</a>
+          </li>
+          <li>
+            <a href="http://jquery.com/">JQuery</a>
+          </li>
+          <li>
+            <a href="https://www.openshift.com/">OpenShift</a>
+          </li>
+        </ul>
+      </div>
+</footer>
+
+</html>
